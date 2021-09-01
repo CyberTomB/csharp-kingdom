@@ -42,6 +42,8 @@ namespace csharp_kingdom
             
             services.AddScoped<AccountsRepository>();
             services.AddScoped<AccountService>();
+
+            services.AddTransient<CastlesRepository>();
         }
 
         private void ConfigureCors(IServiceCollection services)
