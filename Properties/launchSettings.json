@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "csharp-kingdom": {
+    "csharp_kingdom": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

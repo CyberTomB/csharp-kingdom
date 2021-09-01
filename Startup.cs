@@ -14,10 +14,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
-using csharp-kingdom.Repositories;
-using csharp-kingdom.Services;
+using csharp_kingdom.Repositories;
+using csharp_kingdom.Services;
 
-namespace csharp-kingdom
+namespace csharp_kingdom
 {
     public class Startup
     {
@@ -36,7 +36,7 @@ namespace csharp-kingdom
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "csharp-kingdom", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "csharp_kingdom", Version = "v1" });
             });
             services.AddScoped<IDbConnection>(x => CreateDbConnection());
             
@@ -89,7 +89,7 @@ namespace csharp-kingdom
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "csharp-kingdom v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "csharp_kingdom v1"));
                 app.UseCors("CorsDevPolicy");
             }
 

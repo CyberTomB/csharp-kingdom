@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using csharp-kingdom.Models;
-using csharp-kingdom.Services;
+using csharp_kingdom.Models;
+using csharp_kingdom.Services;
 using CodeWorks.Auth0Provider;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace csharp-kingdom.Controllers
+namespace csharp_kingdom.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace csharp-kingdom
+namespace csharp_kingdom
 {
     public class Program
     {

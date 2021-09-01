@@ -1,7 +1,7 @@
-using csharp-kingdom.Models;
-using csharp-kingdom.Repositories;
+using csharp_kingdom.Models;
+using csharp_kingdom.Repositories;
 
-namespace csharp-kingdom.Services
+namespace csharp_kingdom.Services
 {
     public class AccountService
     {

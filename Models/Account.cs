@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace csharp-kingdom.Models
+namespace csharp_kingdom.Models
 {
     public class Account
     {

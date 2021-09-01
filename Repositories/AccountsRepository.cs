@@ -1,8 +1,8 @@
 using System.Data;
-using csharp-kingdom.Models;
+using csharp_kingdom.Models;
 using Dapper;
 
-namespace csharp-kingdom.Repositories
+namespace csharp_kingdom.Repositories
 {
     public class AccountsRepository
     {
