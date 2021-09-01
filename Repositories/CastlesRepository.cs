@@ -22,7 +22,7 @@ namespace csharp_kingdom.Repositories
 
         internal Castle Get(string id)
         {
-            string sql = "SELET * FROM castles WHERE id = @id";
+            string sql = "SELECT * FROM castles WHERE id = @id";
             return _db.QueryFirstOrDefault<Castle>(sql, new {id});
         }
     }
